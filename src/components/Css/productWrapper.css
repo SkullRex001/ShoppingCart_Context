@@ -1,0 +1,17 @@
+.Product{
+    display: inline-block;
+    width: 20vmax;
+    border: 1px solid black;
+    margin-top: 2vmax;
+    transition: all 0.5s;
+    margin-top: 10vmax;
+}
+
+.prodIMG{
+    width: 10vmax;
+}
+
+.Product:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}

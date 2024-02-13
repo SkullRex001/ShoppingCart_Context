@@ -12,7 +12,7 @@ const CardFooter = () => {
    
   return (
     <div className='Footer'>
-        Price : {Total}
+        Price : ${Total}
     </div>
   )
 }

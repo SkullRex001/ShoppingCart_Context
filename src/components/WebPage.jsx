@@ -20,7 +20,9 @@ const WebPage = () => {
     return (
         <>
             <BrowserRouter>
+            <ProductContext.Provider value={{Cart}}>
                 <TopNav />
+                </ProductContext.Provider>
                 <Routes>
                     <Route path='/' element={<ProductContext.Provider value={{ Product, setProduct , setCart , Cart }}>
                         <HomePage />
